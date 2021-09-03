@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/fav32.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css">
     <title>Document</title>
 </head>
@@ -17,7 +18,7 @@
 
         <div class="container">
             <div class="heder__body">
-                <a href="index.html" class="header__logo">
+                <a href="/" class="header__logo">
                     <img src="./images/logo.svg" alt="" >
                 </a>
                 
@@ -39,13 +40,13 @@
                      <div class="info">
                        
                        
-                        <form action="" method="get">
-                            <input class="input" name="s" placeholder="Поиск" type="text">
-                            <button class="search" type="submit"></button>
+                        <form class="form-head" action="" method="get">
+                            <input id="inp-header" name="s" placeholder="Поиск" type="text">
+                            <button class="search" type="submit"><img src="./images/Search.svg" alt=""></button>
                         </form>
                         
                         
-                   <a class="cart" href="list.html"><img src="./images/basket.svg" alt="">
+                   <a class="cart" href="listEmpty.html"><img src="./images/basket.svg" alt="">
                        <span class="price_cart">675$</span>
                    </a>
                    
@@ -68,537 +69,310 @@
 
   <main>
      
-      
-    <section class="center">
-        <div class="container">
-            <div class="center-body">
-               
-				<aside class="sidebar-left" >
-					<div class="catalog">
-						<div class="title-catalog">
-							Каталог товаров
-						</div>
-						<ul class="catalog-menu">
-
-							<li> <a href="categories.html" class="catalog__link">Электронные сигареты</a>  </li>
-							
-							<li> <a href="#" class="catalog__link">Девайсы</a>  </li>
-							<li> <a href="#" class="catalog__link">Атомайзеры</a>  </li>
-							<li> <a href="#" class="catalog__link">Расходники</a>  </li>
-							<li>  <a href="#" class="catalog__link">Жидкости для POD-систем</a> </li>
-							<li> <a href="#" class="catalog__link">Жидкости для<br> электронных сигарет</a>  </li>
-							<li>  <a href="#" class="catalog__link">Аккумуляторы и зарядки</a> </li>
-							<li> <a href="#" class="catalog__link">Аксесуары</a>  </li>
-						</ul>
-					</div>
-               </aside>
-                
-                
-                
-                
-                <div class="content">
-                   
-                   <img class="center_header" src="images/new-center.svg" alt="">
-                  
-                   <h1 class="title">
+      <section class="center">
+	<div class="container">
+		<div class="center-body">
+			<aside class="sidebar-left">
+				<div class="catalog">
+					<div class="title-catalog"> Каталог товаров </div>
+					<ul class="catalog-menu">
+						<li> <a href="categories.html" class="catalog__link">Электронные сигареты</a> </li>
+						<li> <a href="#" class="catalog__link">Девайсы</a> </li>
+						<li> <a href="#" class="catalog__link">Атомайзеры</a> </li>
+						<li> <a href="#" class="catalog__link">Расходники</a> </li>
+						<li> <a href="#" class="catalog__link">Жидкости для POD-систем</a> </li>
+						<li> <a href="#" class="catalog__link">Жидкости для<br> электронных сигарет</a> </li>
+						<li> <a href="#" class="catalog__link">Аккумуляторы и зарядки</a> </li>
+						<li> <a href="#" class="catalog__link">Аксесуары</a> </li>
+					</ul>
+				</div>
+			</aside>
+			<div class="content"> <img class="center_header" src="images/new-center.svg" alt="">
+				<h1 class="title">
                        Новинки
-                   </h1>
-       <a href="#" class="btn_new" >Смотреть <img class="arrow" src="images/Arrow-gr.svg" alt=""> </a>
-                </div>
-                
-                
-                
-                
-                
-                </div>
-                
-                
-                
-                
-                <div class="bestseller">
-                    <h2 class="text">
+                   </h1> <a href="#" class="btn_new">Смотреть <img class="arrow" src="images/Arrow-gr.svg" alt=""> </a> </div>
+		</div>
+		<div class="bestseller">
+			<h2 class="title-categorys">
                         Хиты продаж
 					</h2>
-                    
-                   <div class="block-product">
-                   
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                   
-                    <div class="product-item">
-                      <div class="product-badge new">New</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge"></div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge empty">Нет в наличии</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <a id="button" href="#">Показать ещё  <img src="images/Arrow-gr.svg" alt=""></a>
-
-                </div>
-                
-<!--                ------->
-                
-                <div class="recommendations">
-                     <h2 class="text">
+			<div class="block-product">
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href="card-product.html"> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge new">New</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge"></div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge empty">Нет в наличии</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <a id="button" href="#">Показать ещё  <img src="images/Arrow-gr.svg" alt=""></a> </div>
+		<!--                ------->
+		<div class="recommendations">
+			<h2 class="title-categorys">
                         Рекомендуем
                     </h2>
-                    
-                                     
-
-
-                   <div class="block-product">
-                   
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                   
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    <div class="product-item">
-                      <div class="product-badge sale">off 20%</div>
-                      <div class="product-img">
-                        <a href="">
-                          <img src="images/smo.png">
-                        </a>
-                      </div>
-                      <div class="product-list">
-                        <h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
-                        
-                        <div class="actions">
-                         
-                          <div class="add-to-links">
-                           <span class="product-price">850 p</span>
-                           <div class="add-to-cart">
-                            <a href="" class="cart-button"> В корзину</a>
-                          </div>
-                          </div>
-                           
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-
-                    
-                    
-                    
-                    <a id="button" href="#">Показать ещё  <img src="images/Arrow-gr.svg" alt=""></a>
-                    
-                </div>
-                
-                
-                
-                <div class="popular">
-                     <h2 class="text">
+			<div class="block-product">
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-badge sale">off 20%</div>
+					<div class="product-img">
+						<a href=""> <img src="images/smo.png"> </a>
+					</div>
+					<div class="product-list">
+						<h3 class="product-title">Жидкость OMEGA Вишня 30мл</h3>
+						<div class="actions">
+							<div class="add-to-links"> <span class="product-price">850 p</span>
+								<div class="add-to-cart"> <a href="" class="cart-button"> В корзину</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <a id="button" href="#">Показать ещё  <img src="images/Arrow-gr.svg" alt=""></a> </div>
+		<div class="popular">
+			<h2 class="title-categorys">
                         Популярные категории
                     </h2>
-                    
-                               
-                   <div class="block-popular">
-                        <div class="popular-item">
-                            <a href="#"><img  src="images/podpng.png" alt=""></a>
-                            <div class="popular-text">
-                                Солевые жидкости
-                            </div>
-                        </div> 
-                        
-                        <div class="popular-item">
-                            <a href="#"><img src="images/smo.png" alt=""></a>
-                            <div class="popular-text">
-                                POD-системы
-                            </div>
-                        </div>  
-                       
-                        <div class="popular-item">
-                            <a href="#"><img src="images/hqd.png" alt=""></a>
-                            <div class="popular-text">
-                            
-		Одноразовые вейпы                          
-                         </div>
-                        </div> 
-                        
-                        <div class="popular-item">
-                            <a href="#"><img src="images/win.png" alt=""></a>
-                            <div class="popular-text">
-Аксесуары            
-                        </div>
-                        </div> 
-                        
-                        <div class="popular-item">
-                            <a href="#"><img src="images/qwe.png" alt=""></a>
-                            <div class="popular-text">
-Испарители            
-                       </div>
-                        </div> 
-                        
-                        <div class="popular-item">
-                            <a href="#"><img src="images/ac.png" alt=""></a>
-                            <div class="popular-text">
-Аккумуляторы        
-                           </div>
-                        </div> 
-                        
-                    </div>
-
-                </div>
-                
-                
-                
-            
-        </div>
-    </section>
-
-    <section class="information">
-        <div class="container">
-            <div class="information-body">
-                <div class="information-left">
-                    <h2 class="information-title">
+			<div class="block-popular">
+				<div class="popular-item">
+					<a href="#"><img src="images/podpng.png" alt=""></a>
+					<div class="popular-text"> Солевые жидкости </div>
+				</div>
+				<div class="popular-item">
+					<a href="#"><img src="images/smo.png" alt=""></a>
+					<div class="popular-text"> POD-системы </div>
+				</div>
+				<div class="popular-item">
+					<a href="#"><img src="images/hqd.png" alt=""></a>
+					<div class="popular-text"> Одноразовые вейпы </div>
+				</div>
+				<div class="popular-item">
+					<a href="#"><img src="images/win.png" alt=""></a>
+					<div class="popular-text"> Аксесуары </div>
+				</div>
+				<div class="popular-item">
+					<a href="#"><img src="images/qwe.png" alt=""></a>
+					<div class="popular-text"> Испарители </div>
+				</div>
+				<div class="popular-item">
+					<a href="#"><img src="images/ac.png" alt=""></a>
+					<div class="popular-text"> Аккумуляторы </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="information">
+	<div class="container">
+		<div class="information-body">
+			<div class="information-left">
+				<h2 class="information-title">
                         О магазине
                     </h2>
-                    <div class="information-text">
-						<p>
-						   Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, velLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
-						</p>
-                   
-                    </div>
-                </div>
-                <div class="information-right">
-                    <img class="information_img" src="images/info.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="center">
-        <div class="container">
-            <div class="manufacturers">
-               <h2 class="text">Производители</h2>
-               
-					<div class="manufacturers-content">
-
-						<div class="manufacturers_block">
-							<img src="images/1.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/2.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/3.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/4.png" alt="">
-
-						</div>
-
-                	
-                	
-                	
-
-						<div class="manufacturers_block">
-							<img src="images/1.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/2.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/3.png" alt="">
-						</div>
-
-						<div class="manufacturers_block">
-							<img src="images/4.png" alt="">
-
-						</div>
-
+				<div class="information-text">
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, velLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel </p>
 				</div>
-                	
-            </div>
-            
-            <div class="faq">
-            	<h2 class="text">
+			</div>
+			<div class="information-right"> <img class="information_img" src="images/info.svg" alt=""> </div>
+		</div>
+	</div>
+</section>
+<section class="center">
+	<div class="container">
+		<div class="manufacturers">
+			<h2 class="title-categorys">Производители</h2>
+			<div class="manufacturers-content">
+				<div class="manufacturers_block"> <img src="images/1.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/2.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/3.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/4.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/1.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/2.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/3.png" alt=""> </div>
+				<div class="manufacturers_block"> <img src="images/4.png" alt=""> </div>
+			</div>
+		</div>
+		<div class="faq">
+			<h2 class="title-categorys">
             		FAQ
-            	</h2>
-            </div>
-            
-        </div>
-    </section>
-   
-    <section class="contacts">
-    	<div class="container">
-    		<div class="contacts-body">
-    			<h2 class="contacts-text">
+            	</h2> </div>
+	</div>
+</section>
+<section class="contacts">
+	<div class="container">
+		<div class="contacts-body">
+			<h2 class="contacts-text">
     				Контакты
     			</h2>
-    			<div class="contacts-content">
-    			
-    				<div class="contacts-left">
-    					<div class="cont-text">Телефон</div>
-    					<a class="tell" href="">8(800)800-88-88</a>
-    				</div>
-    				
-    				<div class="contacts-center">
-    					<div class="cont-text">Мы в соц.сетях</div>
-    					<div class="messeg">
-    					<a class="inst" href=""></a>
-    					<a class="vk" href=""></a>
-    					<a class="telegr" href=""></a>
-    					</div>
-    				</div>
-    				
-    				<div class="contacts-bottom">
-    					<div class="cont-text">Email</div>
-    					<a class="mail" href="">vapeshop@gmail.com</a>
-    				</div>
-    				
-    			</div>
-    		</div>
-    	</div>
-    </section>
-    
-    
-   
+			<div class="contacts-content">
+				<div class="contacts-left">
+					<div class="cont-text">Телефон</div> <a class="tell" href="tel:">8(800)800-88-88</a> </div>
+				<div class="contacts-center">
+					<div class="cont-text">Мы в соц.сетях</div>
+					<div class="messeg">
+						<a class="inst" href="#">
+							<svg class="icon-svg">
+								<use xlink:href="/images/svg/sprite.svg#inst.svg"></use>
+							</svg>
+						</a>
+						<a class="vk" href=""><svg class="icon-svg">
+								<use xlink:href="/images/svg/sprite.svg#vk.svg"></use>
+							</svg></a>
+						<a class="telegr" href=""><svg class="icon-svg">
+								<use xlink:href="/images/svg/sprite.svg#teleg.svg"></use>
+							</svg></a>
+					</div>
+				</div>
+				<div class="contacts-bottom">
+					<div class="cont-text">Email</div> <a class="mail" href="mailto:">vapeshop@gmail.com</a> </div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
   </main>
@@ -610,13 +384,13 @@
     	<div class="container">
     		<div class="footer_body">
     			<div class="footer_block">
-    			<a href="index.html"><img src="./images/logo-white.png" alt=""></a>
+    			<a href="/"><img src="./images/logo-white.png" alt=""></a>
     			
     			
     				<div class="footer-messeg">
-    					<a class="footer-inst" href=""></a>
-    					<a class="footer-vk" href=""></a>
-    					<a class="footer-telegr" href=""></a>
+    					<a class="footer-inst" href=""><img src="./images/inst.svg" alt=""></a>
+    					<a class="footer-vk" href=""><img src="./images/vk.svg" alt=""></a>
+    					<a class="footer-telegr" href=""><img src="./images/teleg.svg" alt=""></a>
     					</div>
     			</div>
     			<div class="footer-block">
@@ -663,7 +437,9 @@
     		</div>
     		<div class="finish">
     			<div class="finish-left">Copyright © 2021 </div>
-    			<div class="finish-right">Design by <span class="finish-span">Alibek Sergeev</span></div>
+    			<div class="finish-right">Design by 
+    			
+    			<a href="#"><span class="finish-span">Alibek Sergeev</span></a></div>
     		</div>
     	</div>
     	 
