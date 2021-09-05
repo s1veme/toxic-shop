@@ -23,7 +23,7 @@
                 </a>
                 
                 <div class="header__burger">
-                        <span></span>
+                        <span class="burger-menu"></span>
                     </div>
                     <div class="header-right">
                 <nav class="header__menu">
@@ -80,20 +80,47 @@
 			 			Боксмод iJOY CIGPET CAPO 126W MOD
 			 		</h1>
 						<div class="price-card">2500 руб</div>
-						<div class="color"> Цвет устройства
+						<div class="color-card"> Цвет устройства
 							<div class="btn-color">
-								<button class="card-color">Tengu</button>
-								<button class="card-color">Freeze</button>
-								<button class="card-color">Aqua</button>
-								<button class="card-color">Beast</button>
+								<div class="form_radio_btn">
+	<input id="radio-1" type="radio" name="radio" value="1" checked>
+	<label for="radio-1">Tengu</label>
+</div>
+ 
+<div class="form_radio_btn">
+	<input id="radio-2" type="radio" name="radio" value="2">
+	<label for="radio-2">Freeze</label>
+</div>
+ 
+<div class="form_radio_btn">
+	<input id="radio-3" type="radio" name="radio" value="3">
+	<label for="radio-3">Aqua</label>
+</div>
+ <div class="form_radio_btn">
+	<input id="radio-4" type="radio" name="radio" value="3">
+	<label for="radio-4">Beast</label>
+</div>
+
 							</div>
-						</div>
-						<div class="availability"> В наличии
+			</div>
+						<div class="availability there-is ">  <!--there-is = В наличии, there-is-none = Нет в наличии --> 
+						<div class="availability-head">В наличии</div>
+						
+							
 							<div class="availability-info">
+								
 								<div class="categories"> Категории: <a href="">Электронные сигареты</a>, <a href="">Моды</a> </div>
+								
 								<div class="categories-cart">
-									<div class="number" data-step="1" data-min="1" data-max="100"> <a href="#" class="number-minus">−</a>
-										<input class="number-text" type="text" name="count" value="1"> <a href="#" class="number-plus">+</a> </div> <a href="" class="categories-cart-button">Добавить в корзину</a> </div>
+									<div class="input-group quantity_goods">
+  <button class="button-card-h">-</button>
+  
+  <input type="text" step="1" min="1" max="10" class="num_count" name="quantity" value="1" title="Qty">
+  
+ <button class="button-card-h">+</button>
+</div>
+										
+										<a href="" class="categories-cart-button">Добавить в корзину</a> </div>
 							</div>
 						</div>
 					</div>
@@ -296,9 +323,17 @@
     			
     			
     				<div class="footer-messeg">
-    					<a class="footer-inst" href=""><img src="./images/inst.svg" alt=""></a>
-    					<a class="footer-vk" href=""><img src="./images/vk.svg" alt=""></a>
-    					<a class="footer-telegr" href=""><img src="./images/teleg.svg" alt=""></a>
+    					<a class="inst" href="#">
+							<svg class="icon-svg-foot">
+								<use xlink:href="/images/svg/sprite.svg#instagram"></use>
+							</svg>
+						</a>
+						<a class="vk" href=""><svg class="icon-svg-foot">
+								<use xlink:href="/images/svg/sprite.svg#vk"></use>
+							</svg></a>
+						<a class="telegr" href=""><svg class="icon-svg-foot">
+								<use xlink:href="/images/svg/sprite.svg#telegram"></use>
+							</svg></a>
     					</div>
     			</div>
     			<div class="footer-block">
