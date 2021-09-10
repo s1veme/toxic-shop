@@ -10,71 +10,53 @@
 <body class="body">
 
 
-  
-<header class="header" >
-
-	
-	
-
-        <div class="container">
-            <div class="heder__body">
-                <a href="/" class="header__logo">
-                    <img src="./images/logo.svg" alt="" >
-                </a>
-                
-                
-                <div class="header__burger">
-                       <button id="burger-btn">;t;t;ht </button>
-                        <nav class="burger-menu">kulhegkh
-                        </nav>
-                    </div>
-                    
-                    
-                    <div class="header-right">
-                <nav class="header__menu">
-                    <ul class="header__list">
-                        <li><a href="#" class="header__link">Главное</a></li>
-                        <li><a href="#" class="header__link">О магазине</a></li>
-                        <li><a href="#" class="header__link">Доставка</a></li>
-                        <li><a href="#" class="header__link">Производители</a></li>
-                        <li><a href="#" class="header__link">FAQ</a></li>
-                        <li><a href="#" class="header__link">Контакты</a></li>
-                    </ul>
+  <header class="header">
+	<div class="container">
+		<div class="heder__body">
+		
+<!--	cart-tell	-->
+<a class="cart-tell" href="listEmpty.html">
+						<svg class="icon-basket">
+							<use xlink:href="/images/svg/sprite.svg#basket"></use>
+						</svg> <span class="price_cart-tell">675$</span> </a>
+<!--	cart-trll	-->
+		
+		
+		
+		
+		
+		
+			<a href="/" class="header__logo"> <img src="./images/logo.svg" alt=""> </a>
+			<button id="burger"></button>
+			<div id="menu" class="header-right">
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li><a href="#" class="header__link">Главное</a></li>
+						<li><a href="#" class="header__link">О магазине</a></li>
+						<li><a href="#" class="header__link">Доставка</a></li>
+						<li><a href="#" class="header__link">Производители</a></li>
+						<li><a href="#" class="header__link">FAQ</a></li>
+						<li><a href="#" class="header__link">Контакты</a></li>
+					</ul>
 				</nav>
-                    
-                     <div class="info">
-                       
-                       
-                        <form class="form-head" action="" method="get">
-                            <input id="inp-header" name="s" placeholder="Поиск" type="text">
-                            <button class="search" type="submit"><svg class="icon-search">
+				<div class="info">
+					<form class="form-head" action="" method="get">
+						<input id="inp-header" name="s" placeholder="Поиск" type="text">
+						<button class="search" type="submit">
+							<svg class="icon-search">
 								<use xlink:href="/images/svg/sprite.svg#Search"></use>
-							</svg></button>
-                        </form>
-                        
-                        
-                   <a class="cart" href="listEmpty.html"><svg class="icon-basket">
-								<use xlink:href="/images/svg/sprite.svg#basket"></use>
 							</svg>
-                       <span class="price_cart">675$</span>
-                   </a>
-                   
-                  </div>
-                  </div>
-                
-                 
-                   
-                    
-            </div>
-        </div>
- 
-
+						</button>
+					</form>
+					<a class="cart" href="listEmpty.html">
+						<svg class="icon-basket">
+							<use xlink:href="/images/svg/sprite.svg#basket"></use>
+						</svg> <span class="price_cart">675$</span> </a>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
-	
-
-
-
-
 
   <main>
      
@@ -305,7 +287,7 @@
 						</div>
 					</div>
 				</div>
-			</div> <a id="button" href="#">Показать ещё  <svg class="icon-arrow-gr">
+			</div> <a class="button-arrow" href="#">Показать ещё  <svg class="icon-arrow-gr">
 								<use xlink:href="/images/svg/sprite.svg#Arrow-gr"></use>
 							</svg></a> </div>
 		<div class="popular">
@@ -510,7 +492,7 @@
       			<div class="modal-botton">
       			
       			<button class="data-close" data-close>МНЕ ЕСТЬ 18</button>
-      			<button class="modal-btn">МНЕ НЕТ 18(ПОКИНУТЬ САЙТ)</button>
+      			<button class="modal-btn" onclick="history.back()">МНЕ НЕТ 18(ПОКИНУТЬ САЙТ)</button>
       			
       			</div>
       		</div>
@@ -561,23 +543,6 @@
 								<use xlink:href="/images/svg/sprite.svg#telegram"></use>
 							</svg></a>
     					</div>
-    			</div>
-    			<div class="footer-block">
-    				<div class="title-footer">Каталог</div>
-    				
-    				<nav class="footer-menu">
-    					<ul class="footer-list">
-							<li><a class="footer__link" href=""> Электронные сигареты</a></li>
-							<li><a class="footer__link" href=""> Девайсы</a></li>
-							<li><a class="footer__link" href=""> Атомайзеры</a></li>
-							<li><a class="footer__link" href=""> Расходники</a></li>
-							<li><a class="footer__link" href=""> Жидкости для POD-систем</a></li>
-							<li><a class="footer__link" href=""> Жидкости для <br>электронных сигарет</a></li>
-							<li><a class="footer__link" href=""> Аккумуляторы и зарядки</a></li>
-							<li><a class="footer__link" href=""> Аксесуары</a></li>
-    					</ul>
-    				</nav>
-    				
     			</div>
     			<div class="footer-block">
 					<div class="title-footer">Помощь и сервисы</div>
