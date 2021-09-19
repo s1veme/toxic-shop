@@ -36,21 +36,31 @@
 				<nav class="header__menu">
 					<ul class="header__list">
 						<li><a href="#" class="header__link">Главное</a></li>
-						<li><a href="#" class="header__link">О магазине</a></li>
+						<li><a href="#info" class="header__link">О магазине</a></li>
 						<li><a href="#" class="header__link">Доставка</a></li>
-						<li><a href="#" class="header__link">Производители</a></li>
-						<li><a href="#" class="header__link">FAQ</a></li>
-						<li><a href="#" class="header__link">Контакты</a></li>
+						<li><a href="#manuf" class="header__link">Производители</a></li>
+						<li><a href="#faq" class="header__link">FAQ</a></li>
+						<li><a href="#cont" class="header__link">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="info">
-					<form class="form-head" action="" method="get">
-						<input id="inp-header" name="s" placeholder="Поиск" type="text">
+					<form class="form-head" id="form-head" action="" method="get">
+						<div class="head-search">
+						<input id="inp-header" class="inp-header" name="s" placeholder="Поиск" type="text" data-search>
 						<button class="search" type="submit">
 							<svg class="icon-search">
 								<use xlink:href="./images/svg/sprite.svg#Search"></use>
 							</svg>
 						</button>
+						</div>
+						
+						<ul class="search-list" id="search-list" data-search>
+							<li><a href="#" class="search-link">Моды</a></li>
+							<li><a href="#" class="search-link">Моды</a></li>
+							<li><a href="#" class="search-link">Боксмод iJOY CIGPET CAPO 126W MOD</a></li>
+						</ul>
+						
+						
 					</form>
 					<a class="cart" href="listEmpty.html">
 						<svg class="icon-basket">
@@ -60,6 +70,16 @@
 			</div>
 		</div>
 	</div>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
 </header>
 
   <main>
@@ -78,9 +98,9 @@
 						<h1 class="card-title">
 			 			Боксмод iJOY CIGPET CAPO 126W MOD
 			 		</h1>
-						<div class="price-card">2500 руб</div>
+						<div class="price-card"><span class="stock">3000 руб</span>2100 руб </div>  <!--в stock писать прежнюю цену-->
 						
-						
+
 						
 						<div class="img-tel"><img src="images/CIGPET-Capo-Regulated-Box-Mod.svg" alt=""> </div>
 						
